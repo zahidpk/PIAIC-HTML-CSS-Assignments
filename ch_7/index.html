@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIAIC-HTML-CSS-Assignments ch_5</title>
+    <style>
+      body {
+        background-color: #111111;
+      }
+      .wrapper {
+        width: 880px;
+        margin: 0 auto;
+        padding: 8px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+      }
+      .gallery img {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Chapter # 7 - Forms</h1>
+      <form action="">
+        <fieldset>
+          <legend>Your Details:</legend>
+          <label for="fname">Name:</label>
+          <input type="text" id="name" name="name" /><br /><br />
+          <label for="lname">Email:</label>
+          <input type="text" id="email" name="email" /><br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Your Review:</legend>
+          <br />
+          How did you hear about us?
+          <select name="hear" id="hear">
+            <option value="google">Google</option>
+            <option value="yahoo">Yahoo</option>
+            <option value="msn">MSN</option></select
+          ><br /><br />
+          <label for="visit">Would you visit again? </label><br />
+          <input type="radio" id="yes" name="option" value="yes" />
+          <label for="male">Yes</label>
+          <input type="radio" id="no" name="option" value="no" />
+          <label for="male">No</label>
+          <input type="radio" id="maybe" name="option" value="maybe" />
+          <label for="male">Maybe</label>
+          <br /><br /><label for="comments">Comments:</label> <br />
+          <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+          <br /><br />
+          <input
+            type="checkbox"
+            id="signup"
+            name="signup"
+            value="SignUp"
+            checked
+          />
+          <label for="signup"> Sign me up for email updates </label><br /><br />
+          <input type="submit" value="Submit Review" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
