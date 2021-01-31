@@ -1,0 +1,505 @@
+/* General */
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.uppercase { text-transform: uppercase; }
+.italic { font-style: italic; }
+.bold { font-weight: bold; }
+
+.abril { font-family: 'Abril Fatface'!important; }
+.sofia { font-family: sofia_prolight!important; }
+.open-sans { font-family: "Open Sans"!important; }
+
+.font-100 { font-size: 100px!important; }
+.font-80 { font-size: 80px!important; }
+.font-44 { font-size: 44px!important; }
+.font-41 { font-size: 41px!important; }
+.font-40 { font-size: 40px!important; }
+.font-36 { font-size: 36px!important; }
+.font-33 { font-size: 33px!important; }
+.font-30 { font-size: 30px!important; }
+.font-28 { font-size: 28px!important; }
+.font-25 { font-size: 25px!important; }
+.font-23 { font-size: 23px!important; }
+.font-20 { font-size: 20px!important; }
+.font-19 { font-size: 19px!important; }
+.font-18 { font-size: 18px!important; }
+.font-17 { font-size: 17px!important; }
+
+.text-grey,
+.text-grey p,
+.text-grey div { color: #303030!important; }
+.text-white { color: #fff!important; }
+.text-light-grey,
+.text-light-grey p,
+.text-light-grey div { color: #767676!important; }
+
+.box-blue { 
+    background-color: #00aeef;
+    /*text-transform: uppercase;*/
+    padding: 10px 0 10px 20px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background-blue { background-color: #00aeef; }
+.background-pink { background-color: #ec008c; }
+.background-aqua { background-color: #50d6cf; }
+.background-grey { background-color: #6a6868; }
+
+.border-heading {
+    font-family: sofia_prolight !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+    /*.border-heading:after { 
+        clear: left; 
+        display: block;
+        width: 110px;
+        content: "";
+        height: 6px;
+        background: #00aeef;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+        .border-heading.pink:after { background: #ec008c; }
+        .border-heading.yellow:after { background: #fff200; }
+        .border-heading.grey:after { background: #303030; }
+        .border-heading.blue:after { background: #00aeef; }
+        .border-heading.aqua:after { background: #50d6cf; }*/
+
+.btn-pink { 
+    background: #ec008c; 
+    color: #fff!important; 
+    border-radius: 0px!important; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold
+}
+.btn-blue { 
+    background: #00aeef; 
+    color: #fff!important; 
+    border-radius: 0px!important; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold
+}
+.btn-white.ghost {
+    color: #fff!important;
+    background-color: transparent!important;
+    border: solid 1px #fff!important;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 0px!important;
+}
+
+.image-box { position: relative; max-height: 330px; overflow: hidden; }
+/* conflict with main css */
+.image-box .background { padding: 0px!important; background: none!important; }
+.image-box .background img { max-width: 100%; width: 100%; height: auto; }
+.image-box .overlay { 
+    height: 100%; 
+    width: 100%; 
+    max-width: 100%;
+    position: absolute; 
+    top: 0px;
+    line-height: 290px; 
+    color: #fff;
+    text-align: center;
+}
+.image-box .overlay span { display: block; }
+.image-box .overlay img { margin-top: 30px; }
+.image-box .large { font-size: 100px; color: #fff; margin-bottom: -100px; }
+.image-box .small { font-size: 23px; color: #fff; line-height: 27px; }
+
+/* Filterable Boxes */
+body .filter-controls { margin-top: 25px; text-align: center; }
+body .sub-filter-controls { text-align: center; margin-top: -15px; margin-bottom: 25px; }
+body .filter-controls a, body .sub-filter-controls a { 
+    display: inline-block; 
+    padding-left: 25px; 
+    padding-right: 25px; 
+    transition: all 0.15s;
+    color: #aeaeae;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+    body .filter-controls a:hover,
+    body .filter-controls a.active,
+    body .sub-filter-controls a:hover,
+    body .sub-filter-controls a.active { transition: all 0.15s; color: #ec008c; }
+
+body .sub-filter-controls div { display: none; }
+
+/* Meet Proteus */
+.meet-banner { 
+    background-image: url(../images/meet-banner.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 726px;
+}
+.meet-banner .box-blue { 
+    margin-left: auto; margin-right: auto; 
+    font-size: 67px;
+    line-height: 67px;
+    font-weight: 700;
+    max-width: 600px;
+    margin-top: 65px;
+    text-transform: uppercase;
+}
+.meet-banner .col-md-6 { padding-left: 80px; margin-top: 150px; }
+
+/* Reach More Customers */
+#reach-more-customers { padding-top: 50px; padding-bottom: 50px; }
+
+/* Connections */
+#connections { padding-left: 15%; padding-right: 15%; }
+#connections div { padding-top: 30px; padding-bottom: 30px; }
+
+/* Introducing Proteus */
+#introducing-proteus { padding-top: 50px; padding-bottom: 50px; }
+#introducing-proteus .title { 
+    max-width: 650px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    line-height: 42px; 
+}
+#introducing-proteus .text { 
+    margin-top: 25px; 
+    max-width: 720px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+#introducing-proteus .proteus-image { margin-top: 50px; }
+#introducing-proteus .proteus-image img { max-width: 100%; }
+
+/* Benefits */
+#benefits .col-md-3 { margin-bottom: 25px; }
+#benefits .title { 
+    max-width: 650px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    line-height: 42px; 
+}
+#benefits .text { 
+    margin-top: 25px; 
+    max-width: 720px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+#benefits .benefits-list { margin-top: 50px; margin-bottom: 50px; }
+#benefits .get-conversion-focused { margin-top: 50px;}
+
+/* Did You Know */
+#did-you-know { 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Case Studies */
+#case-studies .heading { margin-bottom: 50px; }
+#case-studies .col-md-6 { margin-bottom: 20px; }
+#case-studies .view-case-studies { margin-top: 50px; }
+
+/* Testimonials */
+#testimonials {
+    margin-top: 50px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials .testimonial-body { margin-top: 10px; }
+#testimonials .testimonial-attribution { margin-top: 25px; }
+
+/* Contact */
+#contact { padding-top: 50px;  padding-bottom: 50px; }
+#contact .contact-form { 
+    max-width: 740px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 25px;
+}
+#contact form input,
+#contact form label,
+#contact form textarea { display: block; width: 100%; max-width: 100%; }
+#contact form label { 
+    font-family: sofia_prolight; 
+    font-size: 18px; 
+    text-transform: uppercase;
+    font-weight: normal; 
+}
+#contact form input {
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+#contact form textarea {
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 115px;
+    border: none;
+}
+#contact form input[type="submit"] {
+    max-width: 260px!important;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Working at The Lab */
+.working-banner { 
+    background-image: url(../images/working-banner.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 726px;
+}
+
+/* Build Your Career */
+#build-your-career .box-blue { 
+    margin-left: auto; margin-right: auto; 
+    font-weight: 700;
+    max-width: 600px;
+    font-weight: normal;
+    margin-top: -60px;
+    background: #2eafdf;
+}
+#build-your-career .career-text { margin-top: 50px; margin-bottom: 50px; }
+
+/* Reviews */
+#reviews { 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+#reviews .col-md-4 { margin-top: 85px; position: relative; }
+#reviews .col-md-4 img { max-width: 100%; width: 100%; height: auto; }
+#reviews .chart { max-height: 100px; overflow: visible; margin-top: 95px; }
+#reviews .perc { display: none!important; }
+#reviews .chart svg { 
+    width: 200px; 
+    height: 200px;
+    max-width: 100%; 
+    float: left; 
+    position: relative;
+    top: -75px;
+}
+#reviews #star-rating { pointer-events: none!important; float: left; }
+
+/* Company Overview */
+#company-overview .heading { margin-bottom: 50px; }
+#company-overview .col-md-6 { margin-bottom: 25px; }
+#company-overview .instagram { margin-top: 50px; }
+#company-overview .project-list a,
+#company-overview .project-list a img { max-width: 100%; width: 100%; height: auto; }
+#company-overview .instagram a { 
+    padding-left: 65px; 
+    padding-right: 20px; 
+    position: relative;
+}
+#company-overview .instagram a i { 
+    font-size: 32px; 
+    margin-right: 15px; 
+    position: absolute; 
+    left: 20px;
+    top: 11px;
+}
+
+/* Perks of the Job */
+#perks-of-the-job { margin-top: 50px; }
+#perks-of-the-job .perks { margin-top: 50px; }
+#perks-of-the-job .col-md-4 { 
+    background: url("../images/checkmark.png") no-repeat center left; 
+    padding-left: 60px;
+    min-height: 60px;
+    height: auto;
+    margin-bottom: 15px;
+    display: table;
+}
+#perks-of-the-job .col-md-4 .text { display: table-cell; vertical-align: middle; font-size: 18px; }
+#perks-of-the-job .view-positions { margin-top: 50px; }
+
+/* Employee Testimonials */
+#employee-testimonials {
+    margin-top: 50px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#employee-testimonials .testimonial-body { margin-top: 10px; }
+#employee-testimonials .testimonial-attribution { margin-top: 25px; }
+
+/* Available Positions */
+#available-positions { margin-top: 50px; }
+#available-positions .current-time {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid 1px #eaeaea;
+    border-bottom: solid 1px #eaeaea;
+    margin-bottom: 50px;
+}
+#available-positions .positions { margin-top: 25px; }
+#available-positions .position { 
+    margin-bottom: 25px;
+}
+#available-positions .position .title { 
+    padding-left: 25px; 
+    padding-right: 25px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 1px #e6e6e6; 
+    border-bottom: none;
+}
+#available-positions .position .content { 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px; 
+    padding-right: 15px; 
+    border: solid 1px #e6e6e6; 
+    border-top: none;
+    border-bottom: none;
+}
+#available-positions .position .location { margin-bottom: 20px; }
+#available-positions .position .apply { 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    padding-bottom: 15px; 
+    border: solid 1px #e6e6e6; 
+    border-top: none; 
+}
+#available-positions .position .apply a {
+    color: #ec008c;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+}
+#available-positions .position .apply a i {
+    margin-left: 10px;
+    font-size: 16px; 
+    color: #fff;  
+    background: #ec008c;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 7px;
+    padding-left: 2px;
+    position: relative;
+    top: -2px;
+}
+#available-positions .send-resume { margin-top: 25px; margin-bottom: 50px; }
+#available-positions .send-resume a { margin-top: 25px; }
+
+/* Meet The Team */
+#meet-the-team { margin-top: 90px; }
+/* Fix main style conflict */
+#meet-the-team .background { padding: 0px!important; background: none!important; } 
+#meet-the-team .background img { width: 100%; height: auto; }
+#meet-the-team .filter-controls { margin-bottom: 40px; margin-top: 50px; }
+#meet-the-team .team-headshot { 
+    position: relative; 
+    cursor: pointer; 
+    margin-bottom: 25px; 
+}
+#meet-the-team .team-headshot .overlay { 
+    text-align: center; 
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 100%;   
+    width: 90%;
+    left: 5%;
+    position: absolute;
+    top: 0px;
+    line-height: 24px;
+    opacity: 0;
+    transition: all 0.3s;
+    height: 90%;
+}
+    #meet-the-team .team-headshot:hover .overlay {
+        opacity: 1;
+        transition: all 0.3s;
+    }
+#meet-the-team .team-headshot .title { margin-bottom: 5px; text-transform: uppercase; }
+#meet-the-team .team-headshot .about { margin-top: 20px; }
+#meet-the-team .team-headshot .social { margin-top: 20px; }
+#meet-the-team .team-headshot .social a { display: inline-block; }
+#meet-the-team .team-headshot .social a img { max-width: 100%; height: auto; }
+#meet-the-team .join-the-team { margin-top: 25px; margin-bottom: 50px; }
+
+/* Queries */
+@media(max-width: 1199px) and (min-width: 991px) {
+    #perks-of-the-job .col-md-4 { min-height: 80px; }
+    #reviews .chart { max-height: 100%; }
+    #meet-the-team .team-headshot .overlay { padding-top: 15px; padding-bottom: 15px; }
+    #meet-the-team .team-headshot .sub-title { font-size: 16px!important; }
+    #meet-the-team .team-headshot .about { font-size: 14px!important; margin-top: 10px; }
+    #meet-the-team .team-headshot .social { margin-top: 10px; }
+    #meet-the-team .team-headshot .social a { max-width: 25px; }
+}
+
+@media(max-width: 1199px) {
+    #reviews .chart svg { float: none; }
+    #reviews .chart { margin-top: 25px; }
+    #reviews .chart svg { top: auto; }
+    .image-box .overlay { line-height: 230px; }
+    .image-box .large { margin-bottom: -70px; }
+    #reviews #star-rating { 
+        float: none; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-bottom: 35px; 
+    }
+}
+
+@media(max-width: 991px) {
+    #banner-slider.meet-banner .col-md-offset-6 {
+        background-color: rgba(255,255,255,0.8);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #reach-more-customers br { display: none; }
+    .meet-banner .col-md-6 { padding-left: 15px; }
+    .meet-banner .col-md-offset-6 div br { display: none; }
+    .image-box .overlay { line-height: 160px; }
+    .image-box .large { margin-bottom: -30px; }
+    #reviews .chart { margin-bottom: 120px; }
+    #reviews .star-rating { padding-top: 50px; }
+    #meet-the-team .team-headshot .overlay { padding-top: 30px; }
+    #meet-the-team .team-headshot .social a { max-width: 25px; }
+}
+
+@media(max-width: 769px) {
+    .meet-banner .slider-text .box-blue { font-size: 30px; max-width: 100%; }
+    .meet-banner .col-md-6 { margin-top: 100px; }
+    .meet-banner .col-md-offset-6 div { font-size: 24px!important; }
+    .btn-pink,
+    .btn-white.ghost { max-width: 100%; }
+    #did-you-know .col-md-12 div { font-size: 24px!important; }
+    #perks-of-the-job .col-md-4 { margin-left: 15px; margin-right: 15px; }
+    body .filter-controls a { display: block; }
+    .image-box .overlay { line-height: 100px; padding-top: 5%; }
+    .image-box .large { margin-bottom: 5px; }
+    #meet-the-team .team-headshot .overlay { padding-top: 50px; }
+    #meet-the-team .team-headshot .sub-title { font-size: 16px!important; }
+    #meet-the-team .team-headshot .about { display: none; }
+    #meet-the-team .team-headshot .social { margin-top: 10px; }
+    #meet-the-team .team-headshot .social a { max-width: 25px; }
+}
